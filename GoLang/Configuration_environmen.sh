@@ -21,6 +21,6 @@ export GOPROXY=https://goproxy.cn,direct
 
 EOF
 # 使其配置文件临时生效
-source source
+source .profile 
 # 验证
 go version
